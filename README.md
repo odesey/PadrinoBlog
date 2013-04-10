@@ -28,7 +28,8 @@ We're going to make a blog using Padrino.
 
 * Generate the models given in this image using padrino g model blah
 
-    http://dl.dropbox.com/u/20721984/20130410_155358.jpg
+    
+![Design](http://dl.dropbox.com/u/20721984/20130410_155358.jpg)
 
 * Don't forget to create your test database
 
