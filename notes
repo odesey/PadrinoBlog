@@ -1,0 +1,22 @@
+author has many posts
+posts have many tags, through => post_tags
+posts has many post_tags
+posts belongs to author
+
+
+comment belongs_to :author
+belongs_to :post (multiple commets per post)
+
+
+author has_many posts
+has_many comments
+
+
+post Tag
+belongs_to :post
+belongs_to :tag
+
+
+Tag has_many :through => post_tags
+
+
